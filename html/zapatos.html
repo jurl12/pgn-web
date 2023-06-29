@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/estilo.css">
+</head>
+<body>
+
+    <main>
+            <header>
+                <nav>
+                    <ul class="menu">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="zapatos.html">Zapatos</a></li>
+                        <li><a href="gorras.html">Gorras</a></li>
+                        <li><a href="aretes.html">Piercings</a></li>
+                        <li><a href="#" id="carrito">Carrito (0)</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </main>
+
+        <div class="producto">
+            <img src="/images/z.jpg " alt="Zapato" />
+            <h3>NIKE Cross</h3>
+            <p>Tenis Nike Hombre Cross Training Air Max Alpha Trainer 5 (TELA).</p>
+            <p>Precio: $100.000</p>
+            <button onclick="agregarAlCarrito('NIKE Cross',100000)">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="/images/za.jpg " alt="Zapato" />
+            <h3>NIKE Air Max</h3>
+            <p>TENIS AIR MAX EXCEE HOMBRE NIKE excelente calidad.</p>
+            <p>Precio: $150.000</p>
+            <button onclick="agregarAlCarrito('NIKE Air Max',150000)">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="/images/zap.jpg " alt="Zapato" />
+            <h3>NIKE SB</h3>
+            <p>NIKE SB Hombres excelente calida Nueva Exhibicion de varios colores.</p>
+            <p>Precio: $150.000</p>
+            <button onclick="agregarAlCarrito('NIKE SB',150000)">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="/images/zapa.jpg " alt="Zapato" />
+            <h3>Tenis NIKE R6</h3>
+            <p>Tenis Nike Hombre Running Revolution 6 excelente calidad (TELA).</p>
+            <p>Precio: $180.000</p>
+            <button onclick="agregarAlCarrito('enis NIKE R6',180000)">Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="/images/zapatoo.jpg " alt="Zapato" />
+            <h3>NIKE Air Max</h3>
+            <p>TENIS NIKE HOMBRE MODA AIR MAX 90 con buena calidad.</p>
+            <p>Precio: $180.000</p>
+            <button onclick="agregarAlCarrito('NIKE Air Max',180000)">Agregar al carrito</button>
+        </div>
+
+        <div id="carrito">
+            <h2>Carrito de compras</h2>
+            <ul id="listaCarrito">
+                <!-- Aquí se agregarán los productos seleccionados -->
+            </ul>
+            <p>Total: <span id="totalCarrito">$0.00</span></p>
+            <button onclick="realizarCompra()">Realizar compra <i class="fa-solid fa-cart-shopping" style="color: #092cdc;"></i> </button>
+        </div>
+        </div>
+        <div class="container">
+            <p class="textcaall"><i class="fa-solid fa-phone-volume" style="color: #f20202;"></i> call 3246638261</p>
+           </div>
+    
+        <script src="carrito.js"></script>
+</body>
+</html>

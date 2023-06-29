@@ -1,0 +1,124 @@
+*{
+  padding: 0;
+    margin: 0 ;
+    font-family: 'Bellota', cursive;
+
+   
+ }
+ 
+/*MENU*/
+
+header {
+    background-color: #2b2a2a;
+    padding: 10px 20px;
+}
+
+.menu {
+    list-style-type:none;
+    margin: 0;
+    padding: 4px;
+    
+ 
+}
+
+.menu li {
+    display:inline;
+    margin-right: 130px;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 12px;
+    font-size: 20px;
+}
+
+.menu li a:hover {
+    background-color: rgb(247, 122, 77);
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilos para la presentación */
+body {
+    font-family: 'Source Code Pro', monospace;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.producto {
+    display: inline-block;
+    width: 170px;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #0a0a0a;
+    background-color: white;
+    
+}
+
+.producto img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: white;
+    
+}
+
+#carrito {
+    margin-top: 30px;
+    border-top: 1px solid #faf6f6;
+    padding-top: 20px;
+}
+
+#carrito h2 {
+    text-align: center;
+}
+
+#listaCarrito {
+    list-style-type: none;
+    padding: 0;
+}
+
+#listaCarrito li {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #3fc244;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+p{
+    background-color: white;
+    padding-top: 5px;
+}
+h3{
+    border-radius: 60px;
+    background-color: rgb(247, 122, 77);
+}
+.textcaall{
+    float: right;
+}
